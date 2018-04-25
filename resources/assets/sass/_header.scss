@@ -1,0 +1,19 @@
+
+// Header
+
+h1{
+  font-size: 100px;
+}
+
+
+
+.logo-header {
+  background: #ff00ff;
+
+  @include mq('phone') {
+    background: #00ff00;
+    margin: 10px 40px 10px 40px;
+  }
+}
+
+
